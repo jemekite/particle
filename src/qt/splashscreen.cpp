@@ -3,6 +3,7 @@
 #include "util.h"
 
 #include <QPainter>
+#undef loop
 #include <QApplication>
 
 SplashScreen::SplashScreen(const QPixmap &pixmap, Qt::WindowFlags f) :
